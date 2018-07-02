@@ -8,7 +8,7 @@ class HashSize < Minitest::Test
   # end
 
   def test_assert_values_turned_into_array
-    assert_equal(Array, letter({}).class)
+    assert_equal(Array, encrypt({}).class)
   end
   #
   # def test_characters_to_position
@@ -23,7 +23,12 @@ class HashSize < Minitest::Test
 
   def test_new_position_zero_equals_f
     letters_shifted = [*"f".."z"]
-    assert_equal(letters_shifted[0], "d")
+    assert_equal(letters_shifted[0], "f")
+  end
+
+  def test_new_right_end
+    letters_shifted = [*"a".."e"]
+    assert_equal(letters_shifted[0], "z")
   end
 
 end
