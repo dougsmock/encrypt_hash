@@ -12,8 +12,13 @@ class HashSize < Minitest::Test
   end
 
   def test_characters_to_position
-    letters = ["a".."z"]
+    letters = [*"a".."z"]
     assert_equal(letters[1], "b")
+  end
+
+  def test_characters_to_position
+      letters = [*"a".."z"]
+      assert_equal(letters[25], "z")
   end
 
 
