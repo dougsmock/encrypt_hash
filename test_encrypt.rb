@@ -11,8 +11,10 @@ class HashSize < Minitest::Test
     assert_equal(Array, letter({}).class)
   end
 
-  def test_letters_to_zero_position
-    assert_equal(letters[0], "a")
+  def test_characters_to_position
+    letters = ["a".."z"]
+    assert_equal(letters[1], "b")
   end
+
 
 end
