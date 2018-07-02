@@ -7,8 +7,8 @@ class HashSize < Minitest::Test
     assert_equal(1, 1)
   end
 
-  def test_assert_letter is_a_hash
-    assert_equal(Hash, letter({}).class)
+  def test_assert_letter_is_a_hash
+    assert_equal(Array, letter({}).class)
   end
 
 
