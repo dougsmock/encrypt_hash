@@ -21,8 +21,9 @@ class HashSize < Minitest::Test
   #     assert_equal(letters[25], "z")
   # end
 
-  def test_if_letters_are_a_through_z
-    assert_equal(*"a".."z", letters())
+  def test_new_position_zero_equals_f
+    letters_shifted = [*"f".."z"]
+    assert_equal(letters_shifted[0], "d")
   end
 
 end
