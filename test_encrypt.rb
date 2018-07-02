@@ -7,11 +7,12 @@ class HashSize < Minitest::Test
     assert_equal(1, 1)
   end
 
-  def test_assert_letter_is_a_hash
+  def test_assert_values_turned_into_hash
     assert_equal(Array, letter({}).class)
   end
 
-
-
+  def test_letters_to_zero_position
+    assert_equal(letters[0], "a")
+  end
 
 end
