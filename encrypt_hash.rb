@@ -3,19 +3,19 @@ def encrypt(alphabet)
   letters_shifted = ["f".."z"]
   letters_right_end = ["a".."e"]
   moved = letters_shifted + letters_right_end
-  moved
+  return moved
 end
 
 # TBA
 
-
-def decode(moved)
-  i = 25
-  j = 21
-    if j >= 21
-      moved.delete_at[i]
-    end
-end
+#
+# def decode(moved)
+#   i = 25
+#     if i >= 21
+#       moved.delete_at[i]
+#       i -= 1
+#     end
+# end
 
 
 
@@ -39,7 +39,7 @@ end
 
 
 
-end
+# end
 
 
 
