@@ -4,23 +4,12 @@ def encrypt(alphabet)
   letters_right_end = ["a".."e"]
   moved = letters_shifted + letters_right_end
 
-  if letters[0..25]
-    moved[0..25]
+  index = 0
+  while index < 26
+    {letters[index] => moved[index]}
+    index += 1
   end
-
 end
-
-
-
-
-# turn "need"
-# into "sjji"
-
-# [13] [4] [4] [3]
-
-
-
-
 
 
 def decode(moved)
