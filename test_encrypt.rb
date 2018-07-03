@@ -7,9 +7,9 @@ class HashSize < Minitest::Test
   #   assert_equal(1, 1)
   # end
 
-  def test_assert_values_turned_into_array
-    assert_equal(Array, encrypt({}).class)
-  end
+  # def test_assert_values_turned_into_array
+  #   assert_equal(Array, encrypt({}).class)
+  # end
   #
   # def test_characters_to_position
   #   letters = [*"a".."z"]
@@ -39,6 +39,6 @@ class HashSize < Minitest::Test
   #   end
 
   def test_positions_after_delete_at
-    assert_equal(moved[25], nil)
+    assert_equal(decode(moved[25]), nil)
   end
 end
