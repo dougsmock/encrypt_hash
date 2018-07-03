@@ -12,26 +12,15 @@ def decode(moved)
   if moved[21] != nil
     moved.drop[21]
   end
-first_five = ["a".."e"]
-first_five.push(moved)
+  original = "a" + "b" + "c" + "d" + "e" + moved
 end
+
+
+
+#concatenate
 
 
 
 
 
 # take a through e, shovel into array
-
-
-
-
-
-
-
-
-
-
-# A message from Caesar.
-# F xhxlxlxhxxxhxhxhxxh
-
-# A message from Caesar.
