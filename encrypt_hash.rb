@@ -13,8 +13,7 @@ def decode(moved)
     moved.drop[21]
   end
 first_five = ["a".."e"]
-moved << first_five
-restored = moved
+first_five.push(moved)
 end
 
 
