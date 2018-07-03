@@ -8,14 +8,13 @@ end
 
 # TBA
 
-#
-# def decode(moved)
-#   i = 25
-#     if i >= 21
-#       moved.delete_at[i]
-#       i -= 1
-#     end
-# end
+def decode(moved)
+  i = 25
+    if i >= 21
+      moved.drop[i]
+      i -= 1
+    end
+end
 
 
 
@@ -39,7 +38,7 @@ end
 
 
 
-# end
+
 
 
 
