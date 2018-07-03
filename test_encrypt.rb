@@ -39,9 +39,9 @@ class HashSize < Minitest::Test
   end
 
   def test_positions_with_delete_at
-    letters_shifted = [*"f".."z"]
-    letters_right_end = [*"a".."e"]
-    moved = letters_shifted + letters_right_end
-    assert_equal(moved[25], nil)
+    # letters_shifted = [*"f".."z"]
+    # letters_right_end = [*"a".."e"]
+    # moved = letters_shifted + letters_right_end
+    assert_equal(moved[21], nil)
   end
 end

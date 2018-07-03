@@ -9,22 +9,11 @@ end
 # TBA
 
 def decode(moved)
-  i = 25
-    if i >= 21
-      moved.drop[i]
-      i -= 1
-    end
+  if moved[21] != nil
+    moved.delete_at[21]
+  end
 end
 
-
-
-
-
-
-  # moved has f-z then a-e
-  # f is 0, z is 20
-  # a is 21, e is 25
-  # delete_at from 25 to 21
 
 
 
