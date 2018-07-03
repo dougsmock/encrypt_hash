@@ -59,8 +59,8 @@ class HashSize < Minitest::Test
   #   assert_equal(original[0], "a")
   # end
 
-  def test_need_returns_sjji
-    assert_equal("sjji", encrypt("need"))
+  def test_need_returns_rj
+    assert_equal("rj", encrypt("me"))
   end
 
 

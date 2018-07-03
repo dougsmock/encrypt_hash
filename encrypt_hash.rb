@@ -4,7 +4,7 @@ def encrypt(alphabet)
   letters_right_end = ["a".."e"]
   moved = letters_shifted + letters_right_end
 
-  arr = "me".slice("")
+  arr = "me".split("")
 
   enc_arr = []
 
