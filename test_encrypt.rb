@@ -53,10 +53,10 @@ class HashSize < Minitest::Test
   # end
 
   def test_restored_alphabet
-    moved = ["f".."z"]
-    first_five = ["a".."e"]
+    moved = [*"f".."z"]
+    first_five = [*"a".."e"]
     restored = moved << first_five
-    assert_equal(moved[0], "a")
+    assert_equal(restored[0], "a")
   end
 
 
