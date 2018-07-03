@@ -10,19 +10,18 @@ end
 
 def decode(moved)
   if moved[21] != nil
-    moved.delete_at[21]
+    moved.drop[21]
   end
+first_five = ["a".."e"]
+restored = moved << first_five
+restored
 end
 
 
 
 
 
-
-
-
-  #then push a through e (e through a?)
-  # into moved array, rename original
+# take a through e, shovel into array
 
 
 
