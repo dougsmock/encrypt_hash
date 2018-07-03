@@ -3,10 +3,25 @@ def encrypt(alphabet)
   letters_shifted = ["f".."z"]
   letters_right_end = ["a".."e"]
   moved = letters_shifted + letters_right_end
-  return moved
+
+  if letters[0..25]
+    moved[0..25]
+  end
+
 end
 
-# TBA
+
+
+
+# turn "need"
+# into "sjji"
+
+# [13] [4] [4] [3]
+
+
+
+
+
 
 def decode(moved)
   if moved[21] != nil
@@ -16,13 +31,3 @@ def decode(moved)
   original = original_left + moved
   original
 end
-
-
-
-#concatenate
-
-
-
-
-
-# take a through e, shovel into array
