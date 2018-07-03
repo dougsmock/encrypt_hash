@@ -12,7 +12,7 @@ def decode(moved)
   if moved[21] != nil
     moved.drop[21]
   end
-  original_left = "a" + "b" + "c" + "d" + "e"
+  original_left = ["a".."e"]
   original = original_left + moved
   original
 end
