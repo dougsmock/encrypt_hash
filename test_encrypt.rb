@@ -53,7 +53,7 @@ class HashSize < Minitest::Test
   # end
 
   def test_restored_alphabet
-    original = [*"a".."z"] 
+    original = [*"y".."z"]
   end
 
 
