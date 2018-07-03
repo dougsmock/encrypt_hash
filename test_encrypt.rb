@@ -31,11 +31,14 @@ class HashSize < Minitest::Test
   #   assert_equal(letters_right_end[0], "a")
   # end
 
-  def test_positions_moved_variables
-    letters_shifted = [*"f".."z"]
-    letters_right_end = [*"a".."e"]
-    moved = letters_shifted + letters_right_end
-    assert_equal(moved[25], "e")
-    end
+  # def test_positions_moved_variables
+  #   letters_shifted = [*"f".."z"]
+  #   letters_right_end = [*"a".."e"]
+  #   moved = letters_shifted + letters_right_end
+  #   assert_equal(moved[24], "d")
+  #   end
 
+  def test_positions_after_delete_at
+    assert_equal(moved[25], nil)
+  end
 end
